@@ -11,4 +11,9 @@ to change the file that the command prompt to be looking at run
 cd C:\Users\sfors\Twitch\Minecraft\Instances
 ```
 
-to download
+to download, run
+```bash
+git clone https://github.com/ItsSforSamuel/ShortFilmMods.git
+```
+</br>
+if you don't want to download a software to manage modpacks, still download this as instructed (altho the directory doesn't matter, when doing this), but then rip out the mod files and put them in the correct file
