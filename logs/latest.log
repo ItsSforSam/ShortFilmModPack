@@ -1,0 +1,909 @@
+[16:16:07] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:16:07] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:16:07] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:16:07] [main/INFO]: Forge Mod Loader version 14.23.5.2859 for Minecraft 1.12.2 loading
+[16:16:07] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_51, running on Windows 10:amd64:10.0, installed at C:\Users\sfors\Twitch\Minecraft\Install\runtime\jre-legacy\windows-x64\jre-legacy
+[16:16:07] [main/INFO]: Searching C:\Users\sfors\Twitch\Minecraft\Instances\ShortFilm\mods for mods
+[16:16:07] [main/INFO]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from voicechat-forge-1.12.2-2.4.0.jar
+[16:16:07] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:16:07] [main/INFO]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[16:16:07] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.3 Source=file:/C:/Users/sfors/Twitch/Minecraft/Instances/ShortFilm/mods/voicechat-forge-1.12.2-2.4.0.jar Service=LaunchWrapper Env=CLIENT
+[16:16:07] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[16:16:07] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:16:07] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:16:07] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:16:07] [main/DEBUG]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
+[16:16:07] [main/TRACE]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[16:16:08] [main/TRACE]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[16:16:08] [main/TRACE]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[16:16:08] [main/TRACE]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[16:16:08] [main/DEBUG]: Injection complete
+[16:16:08] [main/DEBUG]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
+[16:16:08] [main/DEBUG]: Running coremod plugin FMLCorePlugin
+[16:16:10] [main/INFO]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[16:16:11] [main/INFO]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[16:16:11] [main/DEBUG]: Coremod plugin class FMLCorePlugin run successfully
+[16:16:11] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:16:11] [main/DEBUG]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
+[16:16:11] [main/DEBUG]: Injection complete
+[16:16:11] [main/DEBUG]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
+[16:16:11] [main/DEBUG]: Running coremod plugin FMLForgePlugin
+[16:16:11] [main/DEBUG]: Coremod plugin class FMLForgePlugin run successfully
+[16:16:11] [main/INFO]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[16:16:11] [main/INFO]: Compatibility level set to JAVA_8
+[16:16:11] [main/INFO]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@7c4fc2bf
+[16:16:11] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[16:16:11] [main/DEBUG]: Validating minecraft
+[16:16:11] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[16:16:11] [main/INFO]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[16:16:11] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[16:16:11] [main/INFO]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[16:16:12] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[16:16:13] [Client thread/INFO]: Setting user: S_for_Samuel
+[16:16:19] [Client thread/INFO]: LWJGL Version: 2.9.4
+[16:16:21] [Client thread/INFO]: Could not load splash.properties, will create a default one
+[16:16:22] [Client thread/INFO]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 715861320 bytes (682 MB) / 925892608 bytes (883 MB) up to 3817865216 bytes (3641 MB)
+	JVM Flags: 3 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx4096m -Xms256m
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'Intel' Version: '4.6.0 - Build 27.20.100.9664' Renderer: 'Intel(R) UHD Graphics 620'
+[16:16:22] [Client thread/INFO]: MinecraftForge v14.23.5.2859 Initialized
+[16:16:22] [Client thread/INFO]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[16:16:22] [Client thread/INFO]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[16:16:22] [Client thread/INFO]: Replaced 1227 ore ingredients
+[16:16:23] [Client thread/INFO]: Searching C:\Users\sfors\Twitch\Minecraft\Instances\ShortFilm\mods for mods
+[16:16:25] [Thread-3/INFO]: Using sync timing. 200 frames of Display.update took 102878900 nanos
+[16:16:26] [Client thread/WARN]: Mod voicechat is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-2.4.0
+[16:16:26] [Client thread/INFO]: Forge Mod Loader has identified 8 mods to load
+[16:16:27] [Client thread/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, chiselsandbits, customnpcs, moreplayermodels, voicechat] at CLIENT
+[16:16:27] [Client thread/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, chiselsandbits, customnpcs, moreplayermodels, voicechat] at SERVER
+[16:16:30] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Chisels & Bits, FMLFileResourcePack:CustomNPCs, FMLFileResourcePack:MorePlayerModels, FMLFileResourcePack:Simple Voice Chat
+[16:16:31] [Client thread/INFO]: Processing ObjectHolder annotations
+[16:16:31] [Client thread/INFO]: Found 1188 ObjectHolder annotations
+[16:16:31] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[16:16:31] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[16:16:31] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[16:16:31] [Forge Version Check/INFO]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[16:16:31] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `mod.chiselsandbits.tileentitychiseled`, expected `chiselsandbits`. This could be a intended override, but in most cases indicates a broken mod.
+[16:16:31] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `mod.chiselsandbits.tileentitychiseled.tesr`, expected `chiselsandbits`. This could be a intended override, but in most cases indicates a broken mod.
+[16:16:31] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `mod.chiselsandbits.tileentitybittank`, expected `chiselsandbits`. This could be a intended override, but in most cases indicates a broken mod.
+[16:16:32] [Forge Version Check/INFO]: [voicechat] Starting version check at https://maxhenkel.de/update/voicechat.json
+[16:16:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tileredstoneblock`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[16:16:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tileblockanvil`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[16:16:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tilemailbox`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[16:16:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tilewaypoint`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[16:16:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcscripted`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[16:16:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcscripteddoor`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[16:16:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcbuilder`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[16:16:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpccopy`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[16:16:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcborder`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[16:16:38] [Client thread/INFO]: Applying holder lookups
+[16:16:38] [Client thread/INFO]: Holder lookups applied
+[16:16:38] [Client thread/INFO]: Applying holder lookups
+[16:16:38] [Client thread/INFO]: Holder lookups applied
+[16:16:39] [Client thread/INFO]: Applying holder lookups
+[16:16:39] [Client thread/INFO]: Holder lookups applied
+[16:16:39] [Client thread/INFO]: Applying holder lookups
+[16:16:39] [Client thread/INFO]: Holder lookups applied
+[16:16:39] [Client thread/INFO]: Injecting itemstacks
+[16:16:39] [Client thread/INFO]: Itemstack injection complete
+[16:16:42] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[16:16:42] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[16:16:42] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:16:42] [Thread-11/INFO]: OpenAL initialized.
+[16:16:42] [Sound Library Loader/INFO]: Sound engine started
+[16:16:49] [Client thread/INFO]: Max texture size: 16384
+[16:16:54] [Client thread/INFO]: Created: 512x512 textures-atlas
+[16:16:57] [Client thread/INFO]: Applying holder lookups
+[16:16:57] [Client thread/INFO]: Holder lookups applied
+[16:17:06] [Client thread/INFO]: CustomNPC Permissions available:
+[16:17:06] [Client thread/INFO]: customnpcs.edit.blocks
+[16:17:06] [Client thread/INFO]: customnpcs.edit.villager
+[16:17:06] [Client thread/INFO]: customnpcs.global.bank
+[16:17:06] [Client thread/INFO]: customnpcs.global.dialog
+[16:17:06] [Client thread/INFO]: customnpcs.global.faction
+[16:17:06] [Client thread/INFO]: customnpcs.global.linked
+[16:17:06] [Client thread/INFO]: customnpcs.global.naturalspawn
+[16:17:06] [Client thread/INFO]: customnpcs.global.playerdata
+[16:17:06] [Client thread/INFO]: customnpcs.global.quest
+[16:17:06] [Client thread/INFO]: customnpcs.global.recipe
+[16:17:06] [Client thread/INFO]: customnpcs.global.transport
+[16:17:06] [Client thread/INFO]: customnpcs.npc.advanced
+[16:17:06] [Client thread/INFO]: customnpcs.npc.ai
+[16:17:06] [Client thread/INFO]: customnpcs.npc.clone
+[16:17:06] [Client thread/INFO]: customnpcs.npc.create
+[16:17:06] [Client thread/INFO]: customnpcs.npc.delete
+[16:17:06] [Client thread/INFO]: customnpcs.npc.display
+[16:17:06] [Client thread/INFO]: customnpcs.npc.freeze
+[16:17:06] [Client thread/INFO]: customnpcs.npc.gui
+[16:17:06] [Client thread/INFO]: customnpcs.npc.inventory
+[16:17:06] [Client thread/INFO]: customnpcs.npc.reset
+[16:17:06] [Client thread/INFO]: customnpcs.npc.stats
+[16:17:06] [Client thread/INFO]: customnpcs.scenes
+[16:17:06] [Client thread/INFO]: customnpcs.soulstone.all
+[16:17:06] [Client thread/INFO]: customnpcs.spawner.create
+[16:17:06] [Client thread/INFO]: customnpcs.spawner.mob
+[16:17:06] [Client thread/INFO]: customnpcs.tool.mounter
+[16:17:06] [Client thread/INFO]: customnpcs.tool.nbtbook
+[16:17:06] [Client thread/INFO]: customnpcs.tool.pather
+[16:17:06] [Client thread/INFO]: customnpcs.tool.scripter
+[16:17:06] [Client thread/INFO]: [noppes.npcs.CustomNpcs:load:258]: Markov dictionaries loaded!
+[16:17:06] [Client thread/INFO]: Compatibility version 17
+[16:17:06] [Client thread/INFO]: Loading plugins
+[16:17:06] [Client thread/INFO]: Loaded 0 plugin(s)
+[16:17:06] [Client thread/INFO]: Initializing plugins
+[16:17:06] [Client thread/INFO]: Initialized 0 plugin(s)
+[16:17:07] [Client thread/INFO]: Loading Opus
+[16:17:07] [Client thread/INFO]: Injecting itemstacks
+[16:17:07] [Client thread/INFO]: Itemstack injection complete
+[16:17:08] [Client thread/INFO]: Forge Mod Loader has successfully loaded 8 mods
+[16:17:08] [Client thread/INFO]: Narrator library for x64 successfully loaded
+[16:21:39] [Client thread/WARN]: Failed to open microphone '', falling back to default microphone
+[16:21:42] [VoiceTestingThread/INFO]: Mic test audio channel closed
+[16:22:30] [Client thread/INFO]: Connecting to ShortFilm.aternos.me., 15586
+[16:22:34] [Netty Client IO #3/INFO]: Server protocol version 2
+[16:22:34] [Client thread/INFO]: Injecting existing registry data into this client instance
+[16:22:35] [Client thread/INFO]: Applying holder lookups
+[16:22:35] [Client thread/INFO]: Holder lookups applied
+[16:22:35] [Netty Client IO #3/INFO]: [Netty Client IO #3] Client side modded connection established
+[16:22:36] [Client thread/INFO]: Sending secret request to the server
+[16:22:38] [Thread-9/INFO]: [CHAT] §2MorePlayerModels§f installed. More info at §9§nClick here
+[16:22:38] [Thread-8/INFO]: [CHAT] §2CustomNpcs§f installed. For more info §9§nClick here
+[16:22:38] [Netty Client IO #3/INFO]: Received secret
+[16:22:38] [Netty Client IO #3/INFO]: Connecting to voice chat server: 'ShortFilm.aternos.me.:24454'
+[16:22:38] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:22:39] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:22:40] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:22:41] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:22:42] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:22:43] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:22:44] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:22:45] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:22:46] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:22:47] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:22:48] [VoiceChatAuthenticationThread/WARN]: Trying to authenticate voice chat connection (this message will not be logged again)
+[16:23:15] [Client thread/INFO]: [CHAT] S_for_Samuel was slain by Slime
+[16:23:15] [Client thread/INFO]: Loaded 9 advancements
+[16:23:16] [Client thread/INFO]: Disconnecting from previous connection due to server change
+[16:23:16] [Client thread/INFO]: Clearing audio channels
+[16:23:16] [Client thread/INFO]: Disconnecting voicechat
+[16:23:16] [Client thread/INFO]: Sending secret request to the server
+[16:23:16] [Netty Client IO #3/INFO]: Received secret
+[16:23:16] [Netty Client IO #3/INFO]: Connecting to voice chat server: 'ShortFilm.aternos.me.:24454'
+[16:23:16] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:17] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:17] [Client thread/INFO]: Disconnecting from previous connection due to server change
+[16:23:17] [Client thread/INFO]: Clearing audio channels
+[16:23:17] [Client thread/INFO]: Disconnecting voicechat
+[16:23:17] [Client thread/INFO]: Sending secret request to the server
+[16:23:17] [Netty Client IO #3/INFO]: Received secret
+[16:23:17] [Netty Client IO #3/INFO]: Connecting to voice chat server: 'ShortFilm.aternos.me.:24454'
+[16:23:17] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:18] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:19] [Client thread/INFO]: Disconnecting from previous connection due to server change
+[16:23:19] [Client thread/INFO]: Clearing audio channels
+[16:23:19] [Client thread/INFO]: Disconnecting voicechat
+[16:23:19] [Client thread/INFO]: Sending secret request to the server
+[16:23:19] [Netty Client IO #3/INFO]: Received secret
+[16:23:19] [Netty Client IO #3/INFO]: Connecting to voice chat server: 'ShortFilm.aternos.me.:24454'
+[16:23:19] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:20] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:20] [Client thread/INFO]: Disconnecting from previous connection due to server change
+[16:23:20] [Client thread/INFO]: Clearing audio channels
+[16:23:20] [Client thread/INFO]: Disconnecting voicechat
+[16:23:20] [Client thread/INFO]: Sending secret request to the server
+[16:23:20] [Netty Client IO #3/INFO]: Received secret
+[16:23:20] [Netty Client IO #3/INFO]: Connecting to voice chat server: 'ShortFilm.aternos.me.:24454'
+[16:23:20] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:21] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:22] [Client thread/INFO]: Disconnecting from previous connection due to server change
+[16:23:22] [Client thread/INFO]: Clearing audio channels
+[16:23:22] [Client thread/INFO]: Disconnecting voicechat
+[16:23:22] [Client thread/INFO]: Sending secret request to the server
+[16:23:22] [Netty Client IO #3/INFO]: Received secret
+[16:23:22] [Netty Client IO #3/INFO]: Connecting to voice chat server: 'ShortFilm.aternos.me.:24454'
+[16:23:22] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:23] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:23] [Client thread/INFO]: Disconnecting from previous connection due to server change
+[16:23:23] [Client thread/INFO]: Clearing audio channels
+[16:23:23] [Client thread/INFO]: Disconnecting voicechat
+[16:23:23] [Client thread/INFO]: Sending secret request to the server
+[16:23:23] [Netty Client IO #3/INFO]: Received secret
+[16:23:23] [Netty Client IO #3/INFO]: Connecting to voice chat server: 'ShortFilm.aternos.me.:24454'
+[16:23:23] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:24] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:25] [Client thread/INFO]: Disconnecting from previous connection due to server change
+[16:23:25] [Client thread/INFO]: Clearing audio channels
+[16:23:25] [Client thread/INFO]: Disconnecting voicechat
+[16:23:25] [Client thread/INFO]: Sending secret request to the server
+[16:23:25] [Netty Client IO #3/INFO]: Received secret
+[16:23:25] [Netty Client IO #3/INFO]: Connecting to voice chat server: 'ShortFilm.aternos.me.:24454'
+[16:23:25] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:26] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:26] [Client thread/INFO]: Disconnecting from previous connection due to server change
+[16:23:26] [Client thread/INFO]: Clearing audio channels
+[16:23:26] [Client thread/INFO]: Disconnecting voicechat
+[16:23:26] [Client thread/INFO]: Sending secret request to the server
+[16:23:27] [Netty Client IO #3/INFO]: Received secret
+[16:23:27] [Netty Client IO #3/INFO]: Connecting to voice chat server: 'ShortFilm.aternos.me.:24454'
+[16:23:27] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:28] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:28] [Client thread/INFO]: Disconnecting from previous connection due to server change
+[16:23:28] [Client thread/INFO]: Clearing audio channels
+[16:23:28] [Client thread/INFO]: Disconnecting voicechat
+[16:23:28] [Client thread/INFO]: Sending secret request to the server
+[16:23:28] [Netty Client IO #3/INFO]: Received secret
+[16:23:28] [Netty Client IO #3/INFO]: Connecting to voice chat server: 'ShortFilm.aternos.me.:24454'
+[16:23:28] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:29] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:29] [Client thread/INFO]: Disconnecting from previous connection due to server change
+[16:23:29] [Client thread/INFO]: Clearing audio channels
+[16:23:29] [Client thread/INFO]: Disconnecting voicechat
+[16:23:29] [Client thread/INFO]: Sending secret request to the server
+[16:23:29] [Netty Client IO #3/INFO]: Received secret
+[16:23:29] [Netty Client IO #3/INFO]: Connecting to voice chat server: 'ShortFilm.aternos.me.:24454'
+[16:23:29] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:30] [Client thread/INFO]: [CHAT] §7/no§r, §7/death§r, §7/yes§r, §7/c&b.exportmodel§r, §7/bow§r, §7/cry§r, §7/point§r, §7/wave§r, §7/crawl§r, §7/sleep§r, §7/hug§r, §7/wag§r, §7/dance§r, §7/sit§r, /!, /,, /.s, //, //calc, //calculate, //center, //chunk, //clearhistory, //contract, //copy, //count, //curve, //cut, //cyl, //deform, //desel, //deselect, //distr, //drain, //eval, //evaluate, //ex, //expand, //ext, //extinguish, //faces, //fast, //fill, //fillr, //fixlava, //fixwater, //flip, //flora, //forest, //g, //gb, //gen, //genbiome, //generate, //generatebiome, //gmask, //green, //hcyl, //help, //hollow, //hpos1, //hpos2, //hpyramid, //hsphere, //inset, //l, //limit, //line, //load, //lrbuild, //middle, //move, //naturalize, //outline, //outset, //overlay, //paste, //pos1, //pos2, //pyramid, //re, //redo, //regen, //removeabove, //removebelow, //removenear, //rep, //replace, //replacenear, //restore, //rotate, //save, //schem, //schematic, //search, //searchitem, //sel, //set, //setbiome, //shift, //size, //smooth, //snow, //solve, //sphere, //stack, //thaw, //toggleplace, //undo, //walls, //wand, /;, /?, /angry, /asc, /ascend, /biomeinfo, /biomelist, /biomels, /br, /brush, /butcher, /ceil, /chunkinfo, /clearclipboard, /clearhistory, /cs, /cycler, /delchunks, /deltree, /desc, /descend, /ex, /ext, /extinguish, /farwand, /fixlava, /fixwater, /flood, /floodfill, /forestgen, /forge, /gmask, /green, /help, /info, /j, /jumpto, /listchunks, /love, /lrbuild, /mask, /mat, /material, /me, /mpm, /msg, /none, /pickaxe, /pumpkins, /range, /redo, /rem, /rement, /remove, /removeabove, /removebelow, /removenear, /repl, /replacenear, /restore, /schem, /schematic, /searchitem, /sing, /size, /snap, /snapshot, /snow, /sp, /superpickaxe, /tell, /thaw, /thru, /toggleeditwand, /toggleplace, /tool, /tree, /trigger, /undo, /unstuck, /up, /w, /we, /worldedit
+[16:23:30] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:31] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:32] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:33] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:34] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:35] [Client thread/WARN]: Unable to play empty soundEvent: minecraft:entity.small_slime.squish
+[16:23:35] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:36] [Client thread/WARN]: Unable to play empty soundEvent: minecraft:entity.small_slime.jump
+[16:23:36] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:37] [Client thread/INFO]: [CHAT] S_for_Samuel was slain by Slime
+[16:23:37] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:38] [Client thread/INFO]: Disconnecting from previous connection due to server change
+[16:23:38] [Client thread/INFO]: Clearing audio channels
+[16:23:38] [Client thread/INFO]: Disconnecting voicechat
+[16:23:38] [Client thread/INFO]: Sending secret request to the server
+[16:23:38] [Netty Client IO #3/INFO]: Received secret
+[16:23:38] [Netty Client IO #3/INFO]: Connecting to voice chat server: 'ShortFilm.aternos.me.:24454'
+[16:23:38] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:39] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:40] [Client thread/INFO]: Disconnecting from previous connection due to server change
+[16:23:40] [Client thread/INFO]: Clearing audio channels
+[16:23:40] [Client thread/INFO]: Disconnecting voicechat
+[16:23:40] [Client thread/INFO]: Sending secret request to the server
+[16:23:40] [Netty Client IO #3/INFO]: Received secret
+[16:23:40] [Netty Client IO #3/INFO]: Connecting to voice chat server: 'ShortFilm.aternos.me.:24454'
+[16:23:40] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:41] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:41] [Client thread/INFO]: Disconnecting from previous connection due to server change
+[16:23:41] [Client thread/INFO]: Clearing audio channels
+[16:23:41] [Client thread/INFO]: Disconnecting voicechat
+[16:23:41] [Client thread/INFO]: Sending secret request to the server
+[16:23:41] [Netty Client IO #3/INFO]: Received secret
+[16:23:41] [Netty Client IO #3/INFO]: Connecting to voice chat server: 'ShortFilm.aternos.me.:24454'
+[16:23:41] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:42] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:43] [Client thread/INFO]: Disconnecting from previous connection due to server change
+[16:23:43] [Client thread/INFO]: Clearing audio channels
+[16:23:43] [Client thread/INFO]: Disconnecting voicechat
+[16:23:43] [Client thread/INFO]: Sending secret request to the server
+[16:23:43] [Netty Client IO #3/INFO]: Received secret
+[16:23:43] [Netty Client IO #3/INFO]: Connecting to voice chat server: 'ShortFilm.aternos.me.:24454'
+[16:23:43] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:44] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:44] [Client thread/INFO]: Disconnecting from previous connection due to server change
+[16:23:44] [Client thread/INFO]: Clearing audio channels
+[16:23:44] [Client thread/INFO]: Disconnecting voicechat
+[16:23:44] [Client thread/INFO]: Sending secret request to the server
+[16:23:44] [Netty Client IO #3/INFO]: Received secret
+[16:23:44] [Netty Client IO #3/INFO]: Connecting to voice chat server: 'ShortFilm.aternos.me.:24454'
+[16:23:44] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:45] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:46] [Client thread/INFO]: Disconnecting from previous connection due to server change
+[16:23:46] [Client thread/INFO]: Clearing audio channels
+[16:23:46] [Client thread/INFO]: Disconnecting voicechat
+[16:23:46] [Client thread/INFO]: Sending secret request to the server
+[16:23:46] [Netty Client IO #3/INFO]: Received secret
+[16:23:46] [Netty Client IO #3/INFO]: Connecting to voice chat server: 'ShortFilm.aternos.me.:24454'
+[16:23:46] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:47] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:47] [Client thread/INFO]: Disconnecting from previous connection due to server change
+[16:23:47] [Client thread/INFO]: Clearing audio channels
+[16:23:47] [Client thread/INFO]: Disconnecting voicechat
+[16:23:47] [Client thread/INFO]: Sending secret request to the server
+[16:23:47] [Netty Client IO #3/INFO]: Received secret
+[16:23:47] [Netty Client IO #3/INFO]: Connecting to voice chat server: 'ShortFilm.aternos.me.:24454'
+[16:23:48] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:49] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:49] [Client thread/INFO]: Disconnecting from previous connection due to server change
+[16:23:49] [Client thread/INFO]: Clearing audio channels
+[16:23:49] [Client thread/INFO]: Disconnecting voicechat
+[16:23:49] [Client thread/INFO]: Sending secret request to the server
+[16:23:49] [Netty Client IO #3/INFO]: Received secret
+[16:23:49] [Netty Client IO #3/INFO]: Connecting to voice chat server: 'ShortFilm.aternos.me.:24454'
+[16:23:49] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:50] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:50] [Client thread/INFO]: Disconnecting from previous connection due to server change
+[16:23:50] [Client thread/INFO]: Clearing audio channels
+[16:23:50] [Client thread/INFO]: Disconnecting voicechat
+[16:23:50] [Client thread/INFO]: Sending secret request to the server
+[16:23:50] [Netty Client IO #3/INFO]: Received secret
+[16:23:50] [Netty Client IO #3/INFO]: Connecting to voice chat server: 'ShortFilm.aternos.me.:24454'
+[16:23:50] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:51] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:52] [Client thread/INFO]: Disconnecting from previous connection due to server change
+[16:23:52] [Client thread/INFO]: Clearing audio channels
+[16:23:52] [Client thread/INFO]: Disconnecting voicechat
+[16:23:52] [Client thread/INFO]: Sending secret request to the server
+[16:23:52] [Netty Client IO #3/INFO]: Received secret
+[16:23:52] [Netty Client IO #3/INFO]: Connecting to voice chat server: 'ShortFilm.aternos.me.:24454'
+[16:23:52] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:53] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:53] [Client thread/INFO]: Disconnecting from previous connection due to server change
+[16:23:53] [Client thread/INFO]: Clearing audio channels
+[16:23:53] [Client thread/INFO]: Disconnecting voicechat
+[16:23:53] [Client thread/INFO]: Sending secret request to the server
+[16:23:53] [Netty Client IO #3/INFO]: Received secret
+[16:23:53] [Netty Client IO #3/INFO]: Connecting to voice chat server: 'ShortFilm.aternos.me.:24454'
+[16:23:53] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:54] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:55] [Client thread/INFO]: Disconnecting from previous connection due to server change
+[16:23:55] [Client thread/INFO]: Clearing audio channels
+[16:23:55] [Client thread/INFO]: Disconnecting voicechat
+[16:23:55] [Client thread/INFO]: Sending secret request to the server
+[16:23:55] [Netty Client IO #3/INFO]: Received secret
+[16:23:55] [Netty Client IO #3/INFO]: Connecting to voice chat server: 'ShortFilm.aternos.me.:24454'
+[16:23:55] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:56] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:56] [Client thread/INFO]: Disconnecting from previous connection due to server change
+[16:23:56] [Client thread/INFO]: Clearing audio channels
+[16:23:56] [Client thread/INFO]: Disconnecting voicechat
+[16:23:56] [Client thread/INFO]: Sending secret request to the server
+[16:23:57] [Netty Client IO #3/INFO]: Received secret
+[16:23:57] [Netty Client IO #3/INFO]: Connecting to voice chat server: 'ShortFilm.aternos.me.:24454'
+[16:23:57] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:58] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:58] [Client thread/INFO]: Disconnecting from previous connection due to server change
+[16:23:58] [Client thread/INFO]: Clearing audio channels
+[16:23:58] [Client thread/INFO]: Disconnecting voicechat
+[16:23:58] [Client thread/INFO]: Sending secret request to the server
+[16:23:58] [Netty Client IO #3/INFO]: Received secret
+[16:23:58] [Netty Client IO #3/INFO]: Connecting to voice chat server: 'ShortFilm.aternos.me.:24454'
+[16:23:58] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:59] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:23:59] [Client thread/INFO]: Disconnecting from previous connection due to server change
+[16:23:59] [Client thread/INFO]: Clearing audio channels
+[16:23:59] [Client thread/INFO]: Disconnecting voicechat
+[16:23:59] [Client thread/INFO]: Sending secret request to the server
+[16:23:59] [Netty Client IO #3/INFO]: Received secret
+[16:23:59] [Netty Client IO #3/INFO]: Connecting to voice chat server: 'ShortFilm.aternos.me.:24454'
+[16:24:00] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:24:01] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:24:01] [Client thread/INFO]: Disconnecting from previous connection due to server change
+[16:24:01] [Client thread/INFO]: Clearing audio channels
+[16:24:01] [Client thread/INFO]: Disconnecting voicechat
+[16:24:01] [Client thread/INFO]: Sending secret request to the server
+[16:24:01] [Netty Client IO #3/INFO]: Received secret
+[16:24:01] [Netty Client IO #3/INFO]: Connecting to voice chat server: 'ShortFilm.aternos.me.:24454'
+[16:24:01] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:24:01] [Client thread/INFO]: [CHAT] [Server: Opped S_for_Samuel]
+[16:24:02] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:24:02] [Client thread/INFO]: Disconnecting from previous connection due to server change
+[16:24:02] [Client thread/INFO]: Clearing audio channels
+[16:24:02] [Client thread/INFO]: Disconnecting voicechat
+[16:24:02] [Client thread/INFO]: Sending secret request to the server
+[16:24:03] [Netty Client IO #3/INFO]: Received secret
+[16:24:03] [Netty Client IO #3/INFO]: Connecting to voice chat server: 'ShortFilm.aternos.me.:24454'
+[16:24:03] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:24:03] [Client thread/INFO]: Disconnecting from previous connection due to server change
+[16:24:03] [Client thread/INFO]: Clearing audio channels
+[16:24:03] [Client thread/INFO]: Disconnecting voicechat
+[16:24:03] [Client thread/INFO]: Sending secret request to the server
+[16:24:03] [Netty Client IO #3/INFO]: Received secret
+[16:24:03] [Netty Client IO #3/INFO]: Connecting to voice chat server: 'ShortFilm.aternos.me.:24454'
+[16:24:03] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:24:04] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:24:05] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:24:06] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:24:07] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:24:08] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:24:09] [Client thread/INFO]: [CHAT] Your game mode has been updated to Creative Mode
+[16:24:09] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:24:11] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:24:12] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:24:13] [VoiceChatAuthenticationThread/INFO]: Trying to authenticate voice chat connection
+[16:24:14] [VoiceChatAuthenticationThread/WARN]: Trying to authenticate voice chat connection (this message will not be logged again)
+[16:24:31] [Client thread/INFO]: [CHAT] Game rule keepInventory has been updated to true
+[16:24:36] [Client thread/INFO]: [CHAT] announceAdvancements, commandBlockOutput, disableElytraMovementCheck, doDaylightCycle, doEntityDrops, doFireTick, doLimitedCrafting, doMobLoot, doMobSpawning, doTileDrops, doWeatherCycle, gameLoopFunction, keepInventory, logAdminCommands, maxCommandChainLength, maxEntityCramming, mobGriefing, mpmAllowEntityModels, naturalRegeneration, randomTickSpeed, reducedDebugInfo, sendCommandFeedback, showDeathMessages, spawnRadius, spectatorsGenerateChunks
+[16:24:57] [Client thread/INFO]: [CHAT] Game rule doMobSpawning has been updated to false
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Cow
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Cow
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Sheep
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Cow
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Sheep
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Cow
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Cow
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Cow
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Cow
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Cow
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Cow
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Chicken
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Cow
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Chicken
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Chicken
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Chicken
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Chicken
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Horse
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Sheep
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Horse
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Horse
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Pig
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Chicken
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Chicken
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Chicken
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Chicken
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Sheep
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Sheep
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Cow
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Chicken
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Cow
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Sheep
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Chicken
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Cow
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Sheep
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Sheep
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Sheep
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Sheep
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Sheep
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Horse
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Horse
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:07] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.black
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.white
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.leather
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.leather
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.leather
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.leather
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.leather
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.feather
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.chickenRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.feather
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.chickenRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.chickenRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.feather
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.chickenRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.feather
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.feather
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.chickenRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.leather
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.white
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.leather
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.porkchopRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.chickenRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.chickenRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.feather
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.feather
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.chickenRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.chickenRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.gray
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.white
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.leather
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.leather
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.feather
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.chickenRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.leather
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.white
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.feather
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.chickenRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.beefRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.white
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.white
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.gray
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.silver
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.muttonRaw
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.tile.cloth.white
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.leather
+[16:25:08] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:10] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:10] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:10] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed Slime
+[16:25:10] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:10] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:10] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:13] [Client thread/INFO]: [CHAT] Killed item.item.slimeball
+[16:25:14] [Client thread/INFO]: [CHAT] Selector '@e[type=!player]' found nothing
+[16:25:14] [Client thread/INFO]: [CHAT] Selector '@e[type=!player]' found nothing
+[16:26:09] [Client thread/INFO]: [CHAT] /setblock, /setidletimeout, /setworldspawn
+[16:26:15] [Client thread/INFO]: [CHAT] Set the world spawn point to (-371, 4, 1043)
+[16:26:19] [Client thread/INFO]: [CHAT] Usage: /setidletimeout <minutes>
+[16:26:21] [Client thread/INFO]: [CHAT] Successfully set the idle timeout to 0 minutes.
