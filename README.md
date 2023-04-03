@@ -19,4 +19,4 @@ git clone https://github.com/ItsSforSamuel/ShortFilmMods.git
 if you don't want to download a software to manage modpacks, still download this as instructed (altho the directory doesn't matter, when doing this), but then rip out the mod files and put them in the correct file
 
 </br></br>
-Side note, the server will still you in if you have an non offial Minecraft account.
+Side note, the server will let you in if you have an non offial Minecraft account.</br>i.e using a pireted client (not remmend and you can possibly download malware/spyware)
