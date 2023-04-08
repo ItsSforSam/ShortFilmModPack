@@ -33,6 +33,7 @@ go inside of the dictory that was cloned
 cd C:\Users\[user]\Twitch\Minecraft\Instances\ShortFilmMods
 ```
 >replace `[user]` with your name on the devies
+
 then type
 ```bash
 git fetch
