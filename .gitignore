@@ -9,6 +9,7 @@ tmcpr.c
 .log.gz
 .mcpr
 .dat
+minecraftinstance.json
 # files that should be ignored
 # includes both ways a file could be written
 .mixen.out\
