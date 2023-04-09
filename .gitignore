@@ -1,6 +1,21 @@
 options.txt
 config
 .curseclient
-moreplayermodels
-logs
-customnpcs/
+.ini
+.csv
+.replay_cache
+tmcpr.c
+.log
+.log.gz
+.mcpr
+.dat
+# files that should be ignored
+# includes both ways a file could be written
+.mixen.out\
+logs\
+moreplayermodels\
+screenshots\
+.mixen.out/
+logs/
+moreplayermodels/
+screenshots/
