@@ -7,35 +7,45 @@ open your command prompt (either your windows command prompt or the Git Bash one
 to change the file that the command prompt to be looking at run
 (update the information to fit your directory)
 
-```bash
+```powershell
 cd C:\Users\[user]\Twitch\Minecraft\Instances
 ```
->replace `[user]` with your name on the devies 
+>replace `[user]` with your username on the devies
+>
+>If you are using a different path, replace with the path of the minecraft instance is located
 
 to download, run
-```bash
+```powershell
 git clone https://github.com/ItsSforSamuel/ShortFilmMods.git
 ```
 </br>
 if you don't want to download a software to manage modpacks, still download this as instructed (altho the directory doesn't matter, when doing this), but then rip out the mod files and put them in the correct file
 
+</br>
+Side note, the server will let you in if you have an non official Minecraft account.
+>i.e using a pirated client (not recommend and you can possibly download malware/spyware)
+>The most well known spyware client is the non-legcy tlauncher (TL Legacy is the old one before being bought and is allegedly safe, but is strongly discouraged as it's piracy)
+>>The non legacy tlauncher (the one you find as just find on the normal website) is considered by many as spyware and Trojan.
+>
+>>Both versions are disallowed as explicitly mentioned in Minecraft's end user agreement and is discouraged.
 </br></br>
-Side note, the server will let you in if you have an non offial Minecraft account.
->i.e using a pireted client (not remmend and you can possibly download malware/spyware)
 
 # How to Update
->This will not work if you didn't download from git bash, then you would have to redownload from here
+>This will not work if you didn't get it from git cloning, then you would have to redownload from here
+>>To clarify, there is a hidden folder when you clone named `.git`, which holds the info of this repo, downloading from the site doesn't contain this file
 
 open git bash
 
 go inside of the dictory that was cloned
-```bash
-cd C:\Users\[user]\Twitch\Minecraft\Instances\ShortFilmMods
-```
->replace `[user]` with your name on the devies
 
-then type
-```bash
+for using the CurseForge
+```powershell
+cd ./ShortFilmMods
+```
+
+
+then type:
+```powershell
 git fetch
 ```
 all files will be updated, and no files will be overwritten
